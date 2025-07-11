@@ -237,3 +237,77 @@
 }
 
 
+/* Main Contact Section Layout */
+
+.contact-section {
+  display: flex;          
+  justify-content: space-between; 
+  align-items: center;         
+  background-color: #f5f8ff;  
+  padding: 60px 40px;
+  gap: 30px;                  
+  font-family: Arial, sans-serif;
+  margin: 100px 150px;
+  border-radius: 20px;
+}
+
+/* Left Side: Title */
+.contact-left h2 {
+  font-size: 52px;
+  font-weight: bold;
+  color: #000;
+  margin: 200px;
+ 
+}
+
+/* Right Side: Form Styling */
+.contact-right form {
+  display: flex;
+  flex-direction: column;     
+  width: 300px;
+  margin-right: 100px;
+}
+
+/* Label Styling */
+.contact-right label {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+/* Input and Textarea Styling */
+.contact-right input,
+.contact-right textarea {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Textarea Height */
+.contact-right textarea {
+  min-height: 100px;
+  resize: vertical;  
+}
+
+/* Submit Button Styling */
+.contact-right button {
+  background-color: #4c4cff;  
+  color: #fff;
+  border: none;
+  padding: 12px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Hover Effect for Button */
+.contact-right button:hover {
+  background-color: #3838e6;
+}
+
+
