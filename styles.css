@@ -94,3 +94,86 @@
   max-width: 400px;
   border-radius: 20px;
 }
+
+
+/* ---------- Productive Users Section ---------- */
+.productive-section {
+  background-color: #e7e7fb;
+  padding: 60px 20px;
+  text-align: center;
+  margin: 150px;
+  padding: 50px;
+  border-radius: 15px;
+}
+
+.productive-section h2 {
+  margin-bottom: 30px;
+  font-size: 1.8em;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.stat-item h3 {
+  font-size: 45px;
+  color: #4f46e5;
+  margin-bottom: 10px;
+}
+
+.stat-item p {
+  color: #666;
+  margin-top: 5px
+}
+
+/* ---------- Feedback Section ---------- */
+.feedback-section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.feedback-section h2 {
+  margin-bottom: 30px;
+  font-size: 1.8em;
+}
+
+
+.feedback-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #f4f4f9;
+  padding: 20px;
+  border-radius: 12px;
+  width: 250px;
+  text-align: left;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.stars {
+  color: #f5c518;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  gap: 10px;
+  margin-bottom: 7px;
+}
+
+.reviewer img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
